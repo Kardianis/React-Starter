@@ -71,20 +71,6 @@ export const listData = {
     },
   ],
 };
-export const quotes = [
-  'Think Big', 
-  'You can do it', 
-  'Never say never', 
-  '“Impossible is just an opinion.” – Paulo Coelho', 
-  '“Your passion is waiting for your courage to catch up.” – Isabelle Lafleche',
-  '"The hard days are what make you stronger.” – Aly Raisman',
-  '“If everything seems to be under control, you’re not going fast enough.” – Mario Andretti',
-  '“Work hard, be kind, and amazing things will happen.” – Conan O’Brien',
-  '“If you work on something a little bit every day, you end up with something that is massive.” – Kenneth Goldsmith',
-  '“Nothing will work unless you do.” – Maya Angelou',
-  '“Don’t quit yet, the worst moments are usually followed by the most beautiful silver linings. You have to stay strong, remember to keep your head up and remain hopeful.” – Unknown',
-  '“In the middle of every difficulty lies opportunity.” – Albert Einstein',
-];
 
 const lists = [
   {

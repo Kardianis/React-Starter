@@ -1,0 +1,15 @@
+@import '../../styles/settings.scss';
+
+.component{
+    font-size: $base-size + 2px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+.btn{
+    padding: 10px;
+}
