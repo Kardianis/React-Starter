@@ -7,6 +7,7 @@ import {settings} from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
 import Creator from '../Creator/Creator.js';
 import Motivation from '../Motivation/Motivation.js';
+import Container from '../Container/Container.js';
 
 class List extends React.Component {
 
@@ -37,6 +38,7 @@ class List extends React.Component {
             <Column key={columnData.id} {...columnData} />
           ))}
         </div>
+        <Container />
         <div className={styles.creator}>
           <Creator text={settings.columnCreatorText} action={addColumn}/>
         </div>
