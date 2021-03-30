@@ -1,7 +1,6 @@
 import React from 'react';
-import styles from './Container.scss';
 import PropTypes from 'prop-types';
-
+import styles from './Container.scss';
 
 class Container extends React.Component {
 
@@ -10,7 +9,10 @@ class Container extends React.Component {
       children: PropTypes.node,
 
     }
-    
+    /*static defaultProps = {
+      icon: settings.defaultColumnIcon,
+    }*/
+
     render() {
       const { children } = this.props;
       return (
@@ -24,4 +26,4 @@ class Container extends React.Component {
     }
 }
 
-export default container;
+export default Container;
