@@ -11,7 +11,8 @@ export const settings = {
     icon: 'search',
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
-  defaultColumnIcon: 'list-alt',
+  defaultColumnIcon: 'list-alt',  
+  defaultHeaderIcon: 'cat',
 };
 
 export const pageContents = {
@@ -71,26 +72,24 @@ export const listData = {
     },
   ],
 };
-export const quotes = [
-  'Think Big', 
-  'You can do it', 
-  'Never say never', 
-  '“Impossible is just an opinion.” – Paulo Coelho', 
-  '“Your passion is waiting for your courage to catch up.” – Isabelle Lafleche',
-  '"The hard days are what make you stronger.” – Aly Raisman',
-  '“If everything seems to be under control, you’re not going fast enough.” – Mario Andretti',
-  '“Work hard, be kind, and amazing things will happen.” – Conan O’Brien',
-  '“If you work on something a little bit every day, you end up with something that is massive.” – Kenneth Goldsmith',
-  '“Nothing will work unless you do.” – Maya Angelou',
-  '“Don’t quit yet, the worst moments are usually followed by the most beautiful silver linings. You have to stay strong, remember to keep your head up and remain hopeful.” – Unknown',
-  '“In the middle of every difficulty lies opportunity.” – Albert Einstein',
-];
 
 const lists = [
   {
     id: 'list-1',
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-2',
+    title: 'Things to do',
+    description: 'Interesting things I will check it out!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-3',
+    title: 'To-do list',
+    description: 'Interesting things I can check it out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
 ];
@@ -154,6 +153,23 @@ const cards = [
     title: 'Skyrim',
   },
 ];
+
+export const infoData = {
+  title: 'INFO',
+  subtitle: 'A couple words about me...',
+  image: 'https://i.postimg.cc/YCrWb8kB/pexels-lt-chan-2833379.jpg',
+  imageTitle: 'Information',
+  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ipsum tortor. Suspendisse a mi placerat, finibus odio at, gravida.',
+};
+
+export const FAQData = {
+  title: 'FAQ',
+  subtitle: 'Freequently asked questions...',
+  image: 'https://i.postimg.cc/ZqnMNrMJ/pexels-pixabay-221164-1.jpg',
+  imageTitle: 'FAQ',
+  content: 'Donec venenatis pretium scelerisque. Aenean arcu massa, suscipit ac porta ut, bibendum in nunc. Fusce.',
+};
+
 
 const initialStoreData = {
   app: {...pageContents},

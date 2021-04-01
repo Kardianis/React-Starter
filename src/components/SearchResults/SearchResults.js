@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from './Column.scss';
+import styles from './SearchResults.scss';
 import Card from '../Card/Card.js';
 import PropTypes from 'prop-types';
 import { settings } from '../../data/dataStore';
 import Creator from '../Creator/Creator.js';
 import Icon from '../Icon/Icon.js';
 
-class Column extends React.Component {
+class SearchResults extends React.Component {
 
   static propTypes = {
     name: PropTypes.string,
@@ -16,10 +16,7 @@ class Column extends React.Component {
     addCard: PropTypes.func,
 
   }
-  /*static defaultProps = {
-    icon: settings.defaultColumnIcon,
-  }*/
-
+  
   render() {
     const { cards, addCard } = this.props;
     return (
@@ -53,4 +50,4 @@ class Column extends React.Component {
   }
 }
 
-export default Column;
+export default SearchResults;
