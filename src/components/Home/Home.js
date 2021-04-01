@@ -3,7 +3,6 @@ import styles from './Home.scss';
 import ListLink from '../ListLink/ListLink.js';
 import PropTypes from 'prop-types';
 
-
 class Home extends React.Component {
   static propTypes = {
     title: PropTypes.node,
